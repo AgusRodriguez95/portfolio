@@ -1,0 +1,256 @@
+.body {
+  background-image: url(../images/landing_Mesa\ de\ trabajo\ 1.png);
+  color: rgb(255, 255, 255);
+  background-size: 137rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.imagen__personal {
+  border-radius: 18rem;
+}
+
+.nav-link {
+  color: linear-gradient(90deg, #00f3ff, #127aff, #3524ff);
+}
+
+.margin__navitem {
+  margin: 4px;
+}
+
+li:hover {
+  background-color: #127aff;
+  size: 120px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+li:focus {
+  background-color: #29211f;
+}
+
+h1 {
+  color: #272d60;
+}
+
+.texto__principal {
+  color: #ce5933;
+}
+
+.img-thumbnail {
+  border-color: #ffffff;
+  border-radius: 2rem;
+  padding: 3px;
+  box-shadow: 0 10px 32px 0 rgba(23, 29, 100, 0.37);
+}
+
+.titulo {
+  color: white;
+}
+
+.texto__descriptivo {
+  color: #ce5933;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #ffffff;
+  border: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #fd9e7f;
+}
+
+.btn-primary:focus {
+  background-color: #fd9e7f;
+}
+
+h5 {
+  text-align: center;
+  color: #ce5933;
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform 0.2s;
+  /* Animation */
+
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 320px) {
+  .margin__responsive {
+    margin-top: 30px;
+  }
+}
+
+.foto__responsive {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 480px) and (min-width: 480px) {
+  .titulo__responsive {
+    font-size: 25px;
+  }
+
+  .foto__responsive {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 80px;
+  }
+
+  .texto__responsive {
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  .div__responsive {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .img__rounded {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
+  }
+
+  .logo__responsive {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 1024px) {
+  .foto__responsive {
+    position: relative;
+    top: 75px;
+    left: 75px;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1200px) {
+  .foto__responsive {
+    position: relative;
+    top: 24px;
+    left: 75px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .texto__responsive {
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .foto__responsive {
+    position: relative;
+    top: 50px;
+    left: 100 px;
+  }
+
+  .div__responsive {
+    position: relative;
+    bottom: 51px;
+  }
+}
+
+.footter {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.margin_footer {
+  margin-top: 300px;
+  margin-bottom: 40px;
+}
+
+.back2 {
+  color: rgba(255, 255, 255, 1);
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.back {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.back3 {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background-size: cover;
+
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.h1__2 {
+  color: #ffffff;
+}
+
+.card-text {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: rgba(31, 38, 135, 1);
+}
+
+.card2 {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.img__rounded {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 400px;
+
+  height: 250px;
+  width: 250px;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.navbar-light {
+  background-color: white;
+}
+
+.body2 {
+  background-image: white;
+}
+
+.texto2 {
+  color: #127aff;
+}
+
+.errores{position: absolute;}
